@@ -4,7 +4,7 @@ In this post you will learn how to set up [mitmproxy](https://mitmproxy.org/) to
 
 ## Preconditions
 
-First of all, you have to root your device to install mitmproxy's CA certificate. See [here](https://github.com/vegantransistor/BoschSmartHome/blob/main/P1/README.md) on how to do that.
+First of all, you have to root your device to install mitmproxy's CA certificate. See [here](https://github.com/veganmosfet/BoschSmartHome/blob/main/P1/README.md) on how to do that.
 
 ## Setup
 
@@ -57,7 +57,7 @@ In the next step, find out the IP address of the device via `ip addr`:
        valid_lft forever preferred_lft forever 
 ```
 
-Then, just ssh into the device (see [here](https://github.com/vegantransistor/BoschSmartHome/blob/main/P1/README.md#getting-a-linux-root-shell) for the password):
+Then, just ssh into the device (see [here](https://github.com/veganmosfet/BoschSmartHome/blob/main/P1/README.md#getting-a-linux-root-shell) for the password):
 
 ```
 ssh root@192.168.2.58
